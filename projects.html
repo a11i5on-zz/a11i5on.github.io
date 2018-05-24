@@ -1,137 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="Allison Lee">
-
-    <title>Allison Lee</title>
-
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Poiret+One|Sacramento" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
-    <link rel="shortcut icon" href="photos/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="photos/favicon.ico" type="image/x-icon">
-
-
+  <title>Allison Lee</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+  <link rel="stylesheet" href="css/style2.css">
+  <link rel="shortcut icon" href="photos/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="photos/favicon.ico" type="image/x-icon">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="https://use.fontawesome.com/df62121d02.js"></script>
 </head>
-
 <body>
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="index.html"><h1 class="title">Allison Lee</h1></a>
-            </div>
+<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+  <a class="navbar-brand" href="index.html">
+    <h2 class="mainTitle"> Allison Lee </h2>
+    CS Major, Harvard 2020 
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="projects.html">Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="random.html">Fun Stuff</a>
+      </li>    
+    </ul>
+  </div>  
+</nav>
+<br>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-ex1-collapse">
-                <ul class="nav navbar-nav pull-right">
-                    <li>
-                        <a href="projects.html">Projects</a>
-                    </li>
-                    <li>
-                        <a href="resume.html">Resume</a>
-                    </li>
-                    <li>
-                        <a href="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-
-            
-
-        </div>
-        <!-- /.container -->
-    </nav>
-
-    <div class="container-fluid">
-
-        <h1>Projects</h1>
-
-      <div class="row">
-        <div class="col-sm-3"></div>
-        <div class="col-sm-6">
-
-        	<h2 style="font-size: 22px; font-weight: bold;">
-        		MiniML Metacircular Interpreter 
-        	</h2>
-            <p> 
-            	Language(s): OCaml <br>
-                A final project for CS51, I implemented a subset of an OCaml-esque language. The language is <a href="https://en.wikipedia.org/wiki/Turing_completeness">"Turing-complete"</a> and has support for various data types. 
-            </p>
-            
-            <h2 style="font-size: 22px; font-weight: bold;">
-            	ThoughtWall 
-            </h2>
-            <p> 
-            	Language(s): HTML, CSS, JavaScript, SQLite, Python <br>
-                A partner final project for CS50. We were allowed to propose and create anything, so Brandon and I chose to create a web application. <br><br>
-                <iframe width="100%" height="315" src="https://www.youtube.com/embed/D6EOE249MKM" frameborder="0" allowfullscreen></iframe>
-            </p>
-
-            <h2 style="font-size: 22px; font-weight: bold;">
-            	This website
-            </h2>
-            <p> 
-            	Language(s): HTML, CSS, JavaScript <br>
-                Self-explanatory. 
-            </p>
-
-            <br>
-
-            <div class="visible-xs">
-		  		<a href="https://www.linkedin.com/in/allison-lee-338a6a119/"><i class="fa fa-linkedin" style="color:#4C105D;"></i></a>
-		  		<a href="https://github.com/a11i5on"><i class="fa fa-github" style="color:#4C105D;"></i></a>
-		  		<a href="https://www.facebook.com/allison.lee.77"><i class="fa fa-facebook" style="color:#4C105D;"></i></a>
-		  		<a href="https://www.instagram.com/allison_m_lee/"><i class="fa fa-instagram" style="color:#4C105D;"></i></a>
-			</div>	
-
-			<footer >
-				&copy Allison Lee 2017
-			</footer>
-
-        </div>
-        <div class="col-sm-3"></div>
-      </div>
-
-     <div class="social hidden-xs">
-  		<a class="btn btn-default btn-lg btn-round" href="https://www.linkedin.com/in/allison-lee-338a6a119/" role="button"><i class="fa fa-linkedin"></i></a><br>
-  		<a role="button" class="btn btn-default btn-lg btn-round" href="https://github.com/a11i5on"><i class="fa fa-github"></i></a><br>
-  		<a role="button" class="btn btn-default btn-lg btn-round" href="https://www.facebook.com/allison.lee.77"><i class="fa fa-facebook"></i></a><br>
-  		<a role="button" class="btn btn-default btn-lg btn-round" href="https://www.instagram.com/allison_m_lee/"><i class="fa fa-instagram"></i></a>
-	</div>
-
+<div class="container projects">
+  <div class="row"> 
+    <div class="col"><h1 style="line-height: 1.4; color: #735375">Selected Projects</h1></div>
+  </div>
+  <div class="row"> 
+    <div class="col"><h2 style="line-height: 1.4;">2018</h2></div>
+  </div>
+  <div class="row">
+    <div class="col-lg-4">
+      <img class="rounded-circle" src="photos/quickcareers.gif" alt="Generic placeholder image" width="140" height="140">
+      <h2>QuickCareers</h2>
+      <h5>HTML, CSS, JS, Milligram framework</h5>
+      <p>Prototype of a training/online job web app for the homeless demographic. Thoroughly user-tested and created with feedback from local homeless shelters (Harvard Square Homeless Shelter and Y2Y). Features include job training, at-shelter certification scheduling, and online job finder. </p>
+      <p><a class="btn btn-secondary" href="https://a11i5on.github.io/cs179/signup.html" role="button">View prototype &raquo;</a></p>
     </div>
+    <div class="col-lg-4">
+      <img class="rounded-circle" src="photos/medibank.gif" alt="Generic placeholder image" width="140" height="140">
+      <h2>MediBank</h2>
+      <h5>Node.js, Solidity, SQL, HTML, CSS, JS, Milligram framework</h5>
+      <p>An Ethereum-based solution for electronic medical record (EMR) sharing that gives patients agency, fully anonymizes data for research purposes, and disincentivizes fraudulent data creation.</p>
+      <p><a class="btn btn-secondary" href="docs/medibank.pdf" role="button">View research paper &raquo;</a></p>
+    </div>
+    <div class="col-lg-4">
+      <img class="rounded-circle" src="photos/personal.gif" alt="Generic placeholder image" width="140" height="140">
+      <h2>This Website</h2>
+      <h5>HTML, CSS, JS, Bootstrap 4</h5>
+      <p>Self-explanatory (and always a work-in-progress). :) </p>
+      <p><a class="btn btn-secondary" href="https://github.com/a11i5on/a11i5on.github.io" role="button">View source code &raquo;</a></p>
+    </div>
+  </div>
 
+  <div class="row"> 
+    <div class="col"><h2 style="line-height: 1.4;">2017</h2></div>
+  </div>
+  <div class="row">
+    <div class="col-lg-4">
+      <img class="rounded-circle" src="photos/old.gif" alt="Generic placeholder image" width="140" height="140">
+      <h2>Previous Personal Website</h2>
+      <h5>HTML, CSS, JS, Bootstrap 3</h5>
+      <p>A brief summer project that I've relegated in lieu of this new website.</p>
+      <p><a class="btn btn-secondary" href="https://a11i5on.github.io/old-personal-website/" role="button">View site &raquo;</a></p>
+    </div>
+    <div class="col-lg-4">
+      <img class="rounded-circle" src="photos/ocaml.gif" alt="Generic placeholder image" width="140" height="140">
+      <h2>MiniML Metacircular Interpreter</h2>
+      <h5>OCaml</h5>
+      <p>Implementation of a subset of an OCaml-esque language; Turing-complete.</p>
+    </div>
+    <div class="col-lg-4">
+      <img class="rounded-circle" src="photos/refsay.gif" alt="Generic placeholder image" width="140" height="140">
+      <h2>Refugees' Say</h2>
+      <h5>Flask, HTML, CSS, JS</h5>
+      <p>Web app developed with an NGO partner to expedite the optimal placement of incoming refugees.</p>
+      <p><a class="btn btn-secondary" href="https://github.com/harvard-d4d/sip-refugees-say" role="button">View source code &raquo;</a></p>
+    </div>
+  </div>
 
-    <!-- Scripts -->
-    <script
-  src="https://code.jquery.com/jquery-3.2.1.min.js"
-  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-  crossorigin="anonymous"></script>
+  <div class="row"> 
+    <div class="col"><h2 style="line-height: 1.4;">2016</h2></div>
+  </div>
+  <div class="row">
+    <div class="col-lg-4">
+    </div>
+    <div class="col-lg-4">
+      <img class="rounded-circle" src="photos/thoughtwall.gif" alt="Generic placeholder image" width="140" height="140">
+      <h2>ThoughtWall </h2>
+      <h5>HTML5, CSS, JavaScript, SQLite, Python, Flask</h5>
+      <p>Social media web app for Harvard undergraduates. The first major web app I made with a partner, which made me fall in love with CS (so it has a special place in my heart despite questionable quality).</p>
+      <p><a class="btn btn-secondary" href="https://www.youtube.com/watch?v=D6EOE249MKM" role="button">View demo video &raquo;</a></p>
+      <p><a class="btn btn-secondary" href="https://github.com/a11i5on/ThoughtWall" role="button">View source code &raquo;</a></p>
+    </div>
+    <div class="col-lg-4">
+    </div>
+  </div>
+</div>
 
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-    <script src="https://use.fontawesome.com/df62121d02.js"></script>
-
-    <script type="text/javascript">
-		$(document).ready(function() {
-		    $('body').show();
-		});
-	</script>
-      
+<footer id="footer" class="fixed-bottom">
+  <i class="fa fa-copyright"></i> Allison Lee, 2018.
+  </footer>
 
 </body>
+</html>
+
+

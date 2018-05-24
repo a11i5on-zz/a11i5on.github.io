@@ -1,0 +1,153 @@
+html,
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+
+.carousel-inner img {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	vertical-align: middle;
+  }
+
+#social-media {
+	text-align: center; 
+	font-size: x-large;
+	margin-top: 2vh;
+	margin-bottom: 2vh;
+}
+
+#resume:after {
+	background-color: #735375;
+}
+
+#projects {
+
+}
+
+#random:after {
+	background-color: #caabcc;
+}
+
+.btn-round {
+  border-radius: 50%;
+  margin-top: 4vh;
+  margin-bottom: 4vh;
+}
+
+.btn-round.btn-lg {
+  width: 70%;
+  height: auto;
+  padding-top: 45%;
+}
+
+.icontxt {
+	position:relative;
+    color: white;
+    margin: 0 auto;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+    font-size: 2.2vw;
+}
+
+.icontxt:hover {
+	-webkit-transform: skewX(-20deg);
+    -moz-transform: skewX(-20deg);
+    -o-transform: skewX(-20deg);
+    transform: skewX(-20deg);
+}
+
+.middle {
+	text-align: center;
+}
+
+#footer{
+	background-color: #a59cad;
+	text-align: center;
+	padding: 1vh;
+}
+
+#bio {
+	margin-bottom: 10vh;
+}
+
+.bottomtext {
+	margin: 0 auto;
+}
+
+.fa {
+	color: #735375;
+}
+
+.fa:hover {
+	color: grey;
+}
+
+.mainTitle {
+	margin: 0 auto;
+}
+
+.sm_icon {
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+.circle {
+  position: relative;
+  display: block;
+  margin: 2em 0;
+  background-color: transparent;
+  color: #222;
+  text-align: center;
+}
+
+.circle:after {
+  display: block;
+  padding-bottom: 80%;
+  width: 80%;
+  height: 0;
+  border-radius: 50%;
+  background-color: #ddd;
+  content: "";
+}
+
+.circle__inner {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.circle__wrapper {
+  display: table;
+  width: 80%;
+  height: 100%;
+}
+
+.circle__content {
+  display: table-cell;
+  padding: 1em;
+  vertical-align: middle;
+}
+
+.circlecontainer {
+	display: flex;
+}
+
+@media (min-width: 480px) {
+  .circle__content {
+    font-size: x-large;
+  }
+}
+
+@media (min-width: 768px) {
+  .circle__content {
+    font-size: x-large;
+  }
+}

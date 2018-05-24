@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Allison Lee</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+  <link href="css/style3.css" rel="stylesheet" >
+  <link rel="shortcut icon" href="photos/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="photos/favicon.ico" type="image/x-icon">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="https://use.fontawesome.com/df62121d02.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+  <a class="navbar-brand" href="index.html">
+    <h2 class="mainTitle"> Allison Lee </h2>
+    CS Major, Harvard 2020 
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="projects.html">Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="random.html">Fun Stuff</a>
+      </li>    
+    </ul>
+  </div>  
+</nav>
+<br>
+
+<div class="container wrapper">
+	<div class="row">
+		<div class="col">
+	    </div>
+	    <div class="col-7">
+	    	<h3>What I'm up to</h3>
+	    	<ul style="text-align: left;">
+	    		<li>MOVING!! I'm so excited to be interning on the XBox team at Microsoft this summer, but that means that my life will have to be stowed away in 2 suitcases very soon... </li>
+	    		<li>One of my goals for this summer is to get in shape! I miss the days of jogging 10 miles in the morning, and I was pretty appalled at my last 5k time. So I'm hoping to use some of the summer hours (and take advantage of the non-New England weather) to slowly work back up to where I was a year and a half ago.</li>
+	    		<li>Planning for WECode 2019: I'm so honored to be one of the two co-chairs of WECode, Harvard's annual Women in CS conference. I'm hoping to get a good chunk of planning and action done over the next three months, as we've already got our directors. </li>
+	    	</ul>
+	    	<h3>And just a couple of snapshots...</h3>
+	    	<div id="instafeed"></div>
+	    </div>
+	    <div class="col">
+	    </div>
+  	</div>
+    
+</div>
+
+<footer id="footer" class="fixed-bottom">
+  <i class="fa fa-copyright"></i> Allison Lee, 2018.
+</footer>
+
+<script type="text/javascript" src="js/instafeed.min.js"></script>
+
+<script type="text/javascript">
+    var userFeed = new Instafeed({
+        get: 'user',
+        userId: '4924640327',
+        limit: '16',
+        sortBy: 'most-recent',
+        accessToken: '4924640327.1677ed0.dd68cd1008844e379cad78777a28fb0c'
+    });
+    userFeed.run();
+</script>
+
+</body>
+</html>
+
+

@@ -1,187 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="Allison Lee">
-
-    <title>Allison Lee</title>
-
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Poiret+One|Sacramento" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet" >
-    <link rel="shortcut icon" href="photos/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="photos/favicon.ico" type="image/x-icon">
-
-
+  <title>Allison Lee</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="photos/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="photos/favicon.ico" type="image/x-icon">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="https://use.fontawesome.com/df62121d02.js"></script>
 </head>
-
 <body>
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top fade-in one" role="navigation">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand fade-in two" href="index.html"><h1 class="title">Allison Lee</h1></a>
-            </div>
+<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+  <a class="navbar-brand" href="index.html">
+    <h2 class="mainTitle"> Allison Lee </h2>
+    CS Major, Harvard 2020 
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="projects.html">Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="random.html">Fun Stuff</a>
+      </li>    
+    </ul>
+  </div>  
+</nav>
+<br>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-ex1-collapse">
-                <ul class="nav navbar-nav pull-right">
-                    <li>
-                        <a href="projects.html" class="fade-in three">Projects</a>
-                    </li>
-                    <li>
-                        <a href="resume.html" class="fade-in four">Resume</a>
-                    </li>
-                    <li>
-                        <a href="contact.html" class="fade-in five">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <div id="demo" class="carousel slide" data-ride="carousel">
 
-            
-
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+        
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="photos/photo1.jpg">
+          </div>
+          <div class="carousel-item">
+            <img src="photos/photo2.jpg">
+          </div>
+          <div class="carousel-item">
+            <img src="photos/photo3.jpg">
+          </div>
         </div>
-        <!-- /.container -->
-    </nav>
-
-    <div class="container-fluid fade-in six">
-
-	    <div class="row">
-
-	        <div class="col-sm-4"></div>
-		    <div class="col-sm-4">
-	            <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
-	                    <!-- Indicators -->
-	                    <ol class="carousel-indicators">
-	                      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-	                      <li data-target="#myCarousel" data-slide-to="1"></li>
-	                      <li data-target="#myCarousel" data-slide-to="2"></li>
-	                    </ol>
-
-	                    <!-- Wrapper for slides -->
-	                    <div class="carousel-inner">
-
-	                      <div class="item active">
-	                        <img src="photos/photo1.jpg" style="width:100%;">
-	                      </div>
-
-	                      <div class="item">
-	                        <img src="photos/photo2.jpg" style="width:100%;">
-	                      </div>
-	                    
-	                      <div class="item">
-	                        <img src="photos/photo3.jpg" style="width:100%;">
-	                      </div>
-
-	                    </div>
-
-	            </div>
-		    </div>
-        	<div class="col-sm-4"></div>
-
-      	</div>
-
-      <div class="row fade-in six">
-        <div class="col-sm-3"></div>
-        <div class="col-sm-6">
-            <p>
-                <br>
-                Thank you for visiting my website! My name is Allison (or 奥玲 in Mandarin and みさと in Japanese). <br><br>
-                I'm a rising sophomore at Harvard concentrating in Computer Science with a passion for connecting the world. For me, that means developing technology, making music, and learning foreign languages. Some highlights of this include studying abroad in Hangzhou in high school, playing in orchestras and singing a capella, and interning at TripAdvisor! <br><br>
-                Please feel free to check out my projects, résumé, or just say hi. :)
-            </p>
-
-            <h1>What I've been up to</h1>
-            <div id="instafeed"></div>                
-
-            <h1>...And more! </h1>
-            <p>
-                <ul>
-                    <li> 
-                    PREPPING FOR WECODE 2018!: I'm so honored and excited to be a Director for this year's <a href="http://www.wecodeharvard.com/">WECode Conference</a>-- the largest student-run Women in Computer Science conference. It was at this event last year that I was inspired to declare my CS concentration, and I hope that I can contribute to the event having a similar impact on students this time around! 
-                    </li><br>
-                    <li> 
-                    RUNNING: As a new member of Pforzheimer House (objectively the best Harvard house, by the way), I've found a new community of runners. Quite literally rain or shine, 7 AM or 10 PM, we go along the Charles River or around the Cambridge suburbs to bond and get a little exercise. 
-                    </li><br>
-                    <li> 
-                    PSETS: Theoretical CS is challenging for me, but something new and exciting. Hopefully I'll survive! 
-                    </li>
-                </ul>
-            </p>
-
-            <br>
-
-            <div class="fade-in six visible-xs">
-		  		<a href="https://www.linkedin.com/in/allison-lee-338a6a119/"><i class="fa fa-linkedin" style="color:#4C105D;"></i></a>
-		  		<a href="https://github.com/a11i5on"><i class="fa fa-github" style="color:#4C105D;"></i></a>
-		  		<a href="https://www.facebook.com/allison.lee.77"><i class="fa fa-facebook" style="color:#4C105D;"></i></a>
-		  		<a href="https://www.instagram.com/allison_m_lee/"><i class="fa fa-instagram" style="color:#4C105D;"></i></a>
-			</div>	
-
-			<footer class="fade-in seven">
-				&copy Allison Lee 2017
-			</footer>
-
-        </div>
-        <div class="col-sm-3"></div>
+        
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
       </div>
 
-     <div class="social fade-in six hidden-xs">
-  		<a class="btn btn-default btn-lg btn-round" href="https://www.linkedin.com/in/allison-lee-338a6a119/" role="button"><i class="fa fa-linkedin"></i></a><br>
-  		<a role="button" class="btn btn-default btn-lg btn-round" href="https://github.com/a11i5on"><i class="fa fa-github"></i></a><br>
-  		<a role="button" class="btn btn-default btn-lg btn-round" href="https://www.facebook.com/allison.lee.77"><i class="fa fa-facebook"></i></a><br>
-  		<a role="button" class="btn btn-default btn-lg btn-round" href="https://www.instagram.com/allison_m_lee/"><i class="fa fa-instagram"></i></a>
-	</div>
-
+      <div id="social-media">
+        <a href="https://www.linkedin.com/in/allison-lee-338a6a119/" class="sm_icon"><i class="fa fa-linkedin"></i></a>
+        <a href="https://github.com/a11i5on" class="sm_icon"><i class="fa fa-github"></i></a>
+        <a href="https://www.facebook.com/allison.lee.77" class="sm_icon"><i class="fa fa-facebook"></i></a>
+        <a href="https://www.instagram.com/allison_m_lee/" class="sm_icon"><i class="fa fa-instagram"></i></a>
+      </div>
     </div>
+    <div class="col-sm-8 middle">
+      <h1>Hello,</h1>
+      <h5>nice to meet you!</h5>
+      <div class="circlecontainer">
+        <div class="col-sm-4">
+          <div class="circle" id="resume">
+            <a href="docs/AllisonLee_resume.pdf">
+            <div class="circle__inner">
+              <div class="circle__wrapper">
+                <div class="circle__content"><p class="icontxt">Resume</p></div>
+              </div>
+            </div>
+            </a>
+          </div>
+        </div>
 
+        <div class="col-sm-4">
+          <div class="circle" id="projects">
+            <a href="projects.html">
+            <div class="circle__inner">
+              <div class="circle__wrapper">
+                <div class="circle__content"><p class="icontxt">Projects</p></div>
+              </div>
+            </div>
+            </a>
+          </div>
+        </div>
 
-    <!-- Scripts -->
-    <script
-  src="https://code.jquery.com/jquery-3.2.1.min.js"
-  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-  crossorigin="anonymous"></script>
+        <div class="col-sm-4">
+          <div class="circle" id="random">
+            <a href="random.html">
+            <div class="circle__inner">
+              <div class="circle__wrapper">
+                <div class="circle__content"><p class="icontxt">Fun Stuff</p></div>
+              </div>
+            </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    
+      <p id="bio">
+        Thank you for visiting my website! My name is Allison (or 奥玲 in Mandarin and みさと in Japanese). 
+        I'm a rising junior at Harvard concentrating in Computer Science with a passion for connecting the world. For me, that means developing technology, making music, and learning foreign languages. Please feel free to check out my projects, résumé, or just say hi. :)
+      </p>
+    </div>
+  </div>
+</div>
 
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-    <script src="https://use.fontawesome.com/df62121d02.js"></script>
-
-    <script type="text/javascript" src="js/instafeed.min.js"></script>
-
-    <script type="text/javascript">
-        var userFeed = new Instafeed({
-            get: 'user',
-            userId: '4924640327',
-            limit: '16',
-            sortBy: 'most-recent',
-            accessToken: '4924640327.1677ed0.dd68cd1008844e379cad78777a28fb0c'
-        });
-        userFeed.run();
-    </script>
-
-    <script type="text/javascript">
-		$(document).ready(function() {
-		    $('body').show();
-		});
-	</script>
-
-
-
-      
+<footer id="footer" class="fixed-bottom">
+  <i class="fa fa-copyright"></i> Allison Lee, 2018.
+  </footer>
 
 </body>
-
 </html>
+
+
