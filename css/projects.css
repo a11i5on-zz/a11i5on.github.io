@@ -15,3 +15,7 @@ body {
   text-align: center;
   padding: 1vh;
 }
+
+.hidden {
+  opacity: 0
+}
